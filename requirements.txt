@@ -1,0 +1,14 @@
+# PhishScope - Core Dependencies
+# These are the only third-party dependencies needed beyond Python stdlib
+
+# API & Web
+certifi           # TLS/SSL cert bundle for requests
+charset-normalizer # Encoding detection for email bodies
+idna              # International domain name handling
+
+# CLI Enhancement
+rich              # Rich terminal output for CLI summaries & progress
+
+# Optional (for API enrichment - free tier only)
+python-dotenv     # .env variable loading (for API keys)
+requests          # HTTP client (stdlib urllib alternative)
